@@ -91,7 +91,7 @@ h6 {
     color: #979899;
     padding-top: 1.25rem;
     margin-right: 2rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
     align-content: justify;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -101,6 +101,23 @@ h6 {
     align-items: flex-start;
 }
 
+
+.contact-content {
+    color: #979899;
+    padding-top: 1.25rem;
+    margin-right: 2rem;
+    font-size: 1.1rem;
+    align-content: justify;
+    
+}
+
+
+.contact-info{
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #979899;
+}
 .skill-number {
     font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 600;
@@ -125,9 +142,26 @@ h6 {
 }
 
 .skill-content {
-    padding: 1rem;
+    padding-bottom: : 2rem;
+}
+.skill-percent, 
+.contact-heading,
+.other-heading{
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #979899;
+    text-transform: uppercase;
 }
 
+.skill-percent {
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.contact-heading{
+    
+}
 
 .timeline {
     border-left-width: 2px;
@@ -192,6 +226,7 @@ h6 {
 
 .line-color {
     background: #f39c12;
+    opacity: 0.75;
 }
 
 .timeline-content {
@@ -212,8 +247,7 @@ h6 {
 }
 
 .project-title {
-    font-size: 2rem;
-
+    font-size: 1.5rem;
 }
 
 a {
@@ -227,6 +261,25 @@ a:hover {
 }
 
 .project-language {
+    font-weight: 250;
     font-style: italic;
-    margin-bottom: -1rem;
+    margin-top: -0.25rem;
+    margin-bottom: -1.25rem;
+    opacity: 0.8;
+}
+
+.deco-line {
+  height: 5px;
+  width: 40%;
+  margin-top: 0.55rem;
+  margin-bottom: 0.5rem;
+  margin-right: 60%;
+  text-align: left;
+}
+
+.project-line{
+    opacity: 0.7;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
 }
