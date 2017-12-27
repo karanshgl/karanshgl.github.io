@@ -133,6 +133,7 @@ h6 {
 }
 
 .skill-heading,
+.course-heading,
 .project-title {
     font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
@@ -244,6 +245,7 @@ h6 {
 .project-item {
     padding-top: 0.8rem;
     padding-bottom: 0.5rem;
+
 }
 
 .project-title {
@@ -283,3 +285,26 @@ a:hover {
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
 }
+
+.course-heading{
+    color: #f39c12;
+    opacity: 0.9;
+}
+
+.course-item{
+    padding-top: 1.25rem;
+}
+
+.course-list{
+    color: #95a5a6;
+}
+
+.course-list ul{
+    list-style: none;
+    -webkit-padding-start: 0;
+}
+
+.course-list li{
+    display: inline;
+}
+
