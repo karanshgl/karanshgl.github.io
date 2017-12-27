@@ -308,18 +308,15 @@ a:hover {
     display: inline;
 }
 
-#home{
-    height: 100%;
-    background: #202020;
-}
 
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
+  font-size: 0.9rem;
   text-transform: uppercase;
   background-color: #202020; }
   #mainNav .navbar-toggler {
-    font-size: 14px;
+    font-size: 12px;
     padding: 11px;
     color: white;
     border: 1px solid white; }
@@ -332,7 +329,7 @@ a:hover {
     -moz-transition: background 0.3s ease-in-out;
     transition: background 0.3s ease-in-out; }
     #mainNav .navbar-nav .nav-item:hover {
-      color: fade(white, 80%);
+      color: fade(white, 70%);
       outline: none;
       background-color: transparent; }
     #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
@@ -351,12 +348,10 @@ a:hover {
       #mainNav.navbar-shrink {
         padding-top: 10px;
         padding-bottom: 10px;
-        background: #101010; }
+        background: #1a1a1a; }
       #mainNav .nav-link.active {
-        outline: none;
-        background-color: rgba(255, 255, 255, 0.3); }
-        #mainNav .nav-link.active:hover {
-          color: white; } }
+        color:#fefefe;}
+        
 
 
 .masthead {
@@ -366,7 +361,7 @@ a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: #101010;
+  background: #202020;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
