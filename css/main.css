@@ -1,4 +1,4 @@
-html {
+    html {
     font-size: 14px;
     min-height: 100%;
     -webkit-text-size-adjust: 100%;
@@ -30,9 +30,10 @@ body {
 }
 
 
-hr{
-	background-color: #a9a9a9
+hr {
+    background-color: #a9a9a9
 }
+
 
 
 /* Heading */
@@ -108,16 +109,16 @@ h6 {
     margin-right: 2rem;
     font-size: 1.1rem;
     align-content: justify;
-    
 }
 
 
-.contact-info{
+.contact-info {
     font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 1rem;
     color: #979899;
 }
+
 .skill-number {
     font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 600;
@@ -145,9 +146,10 @@ h6 {
 .skill-content {
     padding-bottom: : 2rem;
 }
-.skill-percent, 
+
+.skill-percent,
 .contact-heading,
-.other-heading{
+.other-heading {
     font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 1rem;
@@ -160,9 +162,7 @@ h6 {
     opacity: 0.5;
 }
 
-.contact-heading{
-    
-}
+.contact-heading {}
 
 .timeline {
     border-left-width: 2px;
@@ -245,7 +245,6 @@ h6 {
 .project-item {
     padding-top: 0.8rem;
     padding-bottom: 0.5rem;
-
 }
 
 .project-title {
@@ -271,118 +270,148 @@ a:hover {
 }
 
 .deco-line {
-  height: 5px;
-  width: 40%;
-  margin-top: 0.55rem;
-  margin-bottom: 0.5rem;
-  margin-right: 60%;
-  text-align: left;
+    height: 5px;
+    width: 40%;
+    margin-top: 0.55rem;
+    margin-bottom: 0.5rem;
+    margin-right: 60%;
+    text-align: left;
 }
 
-.project-line{
+.project-line {
     opacity: 0.7;
     margin-right: 2rem;
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
-.course-heading{
+.course-heading {
     color: #f39c12;
     opacity: 0.9;
 }
 
-.course-item{
+.course-item {
     padding-top: 1.25rem;
 }
 
-.course-list{
+.course-list {
     color: #95a5a6;
 }
 
-.course-list ul{
+.course-list ul {
     list-style: none;
     -webkit-padding-start: 0;
 }
 
-.course-list li{
+.course-list li {
     display: inline;
 }
 
 
 #mainNav {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin-bottom: 0;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  background-color: #202020; }
-  #mainNav .navbar-toggler {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    background-color: #202020;
+}
+
+#mainNav .navbar-toggler {
     font-size: 12px;
     padding: 11px;
     color: white;
-    border: 1px solid white; }
-  #mainNav .navbar-brand {
-    font-weight: 700; }
-  #mainNav a {
-    color: white; }
-  #mainNav .navbar-nav .nav-item {
+    border: 1px solid white;
+}
+
+#mainNav .navbar-brand {
+    font-weight: 700;
+}
+
+#mainNav a {
+    color: #c0c0c0;
+}
+
+#mainNav .navbar-nav .nav-item {
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
-    transition: background 0.3s ease-in-out; }
-    #mainNav .navbar-nav .nav-item:hover {
-      color: fade(white, 70%);
-      outline: none;
-      background-color: transparent; }
-    #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
-      outline: none;
-      background-color: transparent; }
-  @media (min-width: 992px) {
+    transition: background 0.3s ease-in-out;
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+    color: fade(white, 70%);
+    outline: none;
+    background-color: transparent;
+}
+
+#mainNav .navbar-nav .nav-item:active,
+#mainNav .navbar-nav .nav-item:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+@media (min-width: 992px) {
     #mainNav {
-      padding-top: 20px;
-      padding-bottom: 20px;
-      -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-      -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-      transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-      letter-spacing: 1px;
-      border-bottom: none;
-      background: transparent; }
-      #mainNav.navbar-shrink {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+        -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+        transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+        letter-spacing: 1px;
+        border-bottom: none;
+        background: transparent;
+    }
+    #mainNav.navbar-shrink {
         padding-top: 10px;
         padding-bottom: 10px;
-        background: #1a1a1a; }
-      #mainNav .nav-link.active {
-        color:#fefefe;}
-        
+        background: #1a1a1a;
+    }
+    #mainNav .nav-link.active {
+        color: #fefefe;
+    }
+}
+
 
 
 .masthead {
-  display: table;
-  width: 100%;
-  height: auto;
-  padding: 200px 0;
-  text-align: center;
-  color: white;
-  background: #202020;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-  .masthead .intro-body {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 200px 0;
+    text-align: center;
+    color: white;
+    background: #202020;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.masthead .intro-body {
     display: table-cell;
-    vertical-align: middle; }
-    .masthead .intro-body .brand-heading {
-      font-size: 50px; }
-    .masthead .intro-body .intro-text {
-      font-size: 18px; }
-  @media (min-width: 768px) {
+    vertical-align: middle;
+}
+.masthead .intro-body .brand-heading {
+    font-size: 50px;
+}
+.masthead .intro-body .intro-text {
+    font-size: 18px;
+}
+@media (min-width: 768px) {
     .masthead {
-      height: 100%;
-      padding: 0; }
-      .masthead .intro-body .brand-heading {
-        font-size: 100px; }
-      .masthead .intro-body .intro-text {
-        font-size: 22px; } }
+        height: 100%;
+        padding: 0;
+    }
+    .masthead .intro-body .brand-heading {
+        font-size: 100px;
+    }
+    .masthead .intro-body .intro-text {
+        font-size: 22px;
+    }
+}
 
-.sub-heading{
+.footer{
+    background: #101010;
+    width: 100%;
     color: #979899;
-    opacity: 0.75;
+    padding: 0.75rem;
+    text-align: center;
 }
